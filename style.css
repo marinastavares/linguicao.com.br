@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%); */
-    background-image: url("bg.png");
+    background-image: url("feed fundo.png");
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -72,6 +72,14 @@ img {
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
+	filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.25));
+}
+
+.link:after {
+    bottom: -1px;
+    right: -1px;
+    background-color: #b6c7e7;
+    box-shadow: 0 0 10px 5px #b6c7e7;
 }
 
 @media (hover: hover) {
@@ -85,7 +93,7 @@ img {
     background-color: var(--accentColor);
     color: var(--bgColor);
 }
-
+	
 #hashtag {
     position: relative;
     padding-bottom: 20px;
@@ -803,4 +811,89 @@ img {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
+}
+
+/*-----------------------Vendedores-----------------------*/
+
+#t1-wrapper {
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+    width: 100%;
+	justify-content: center;
+}
+#t1-box {
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+/*#ffdd00;
+-webkit-box-shadow: 6px 12px 38px -5px rgba(0,0,0,0.1);
+  -moz-box-shadow: 6px 12px 38px -5px rgba(0,0,0,0.1);
+  box-shadow: 6px 12px 38px -5px rgba(0,0,0,0.1);*/
+#card {
+  background: transparent;
+  padding: 0.1em;
+  max-width: 400px;
+  width: auto;
+  max-width: 100%;
+  margin: 0em auto;
+  padding-right: 20px;
+  padding-left: 10px;
+  border-radius: .0em;  
+}
+
+#circulo {
+width: 100px;
+height: 100px;
+background-color: red;
+margin: 50px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.image-block,
+.text-block {
+  display: inline-block;
+  vertical-align: top;
+  height: auto;
+  margin-left:5px;
+}
+
+.image-block {
+  margin-right: 0em;
+}
+/* width: 65px;*/
+.image-block img {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.header {
+  font-size: .8rem;
+  margin-bottom: -12px;
+  margin-top: -12px;
+  color: red;
+}
+
+.no-style {
+  list-style: none;
+  height: auto;
+  padding-left: 0;
+  margin: 0;
+}
+
+.no-style li {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.no-style i {
+	margin-left: 10px;
+	margin-right: 10px;
 }

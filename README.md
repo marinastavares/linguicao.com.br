@@ -3,3 +3,4 @@
 </p>
 <h1 align="center">Linktree do Linguição</h1>
 <h2 align="center">Acervo de links da melhor festa do sul do mundo.</h2>
+<a align="center" href="linguicao.com.br">Acesse já</a>

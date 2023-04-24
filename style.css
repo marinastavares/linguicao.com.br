@@ -833,7 +833,8 @@ img {
 #card {
   background: transparent;
   padding: 0.1em;
-  max-width: 400px;
+  max-width: 450px;
+  min-width: 310px;
   width: auto;
   max-width: 100%;
   margin: 0em auto;
@@ -874,7 +875,7 @@ a {
 }
 
 .header {
-  font-size: .8rem;
+  font-size: .7rem;
   margin-bottom: -12px;
   margin-top: -12px;
   color: red;

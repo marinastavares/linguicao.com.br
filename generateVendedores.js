@@ -30,7 +30,7 @@ const names = [
 const drive_images_ids = [
   "1Y9ah_aEXNs0cDVMYeBuIh4027m6F9QMC",
   "1YFj2ZkatiR2qycQAcsk0n90lFhDLiCmI",
-  "1T42kxo2zTtBv5UxTcDdA-GwrPgIDRnZ1",
+  "1fiShOEJGZFAQZl2SLgk3CdwbntFQYnwl",
   "1NKJZrWqDM_Gx-XIIuHi1ML1w25gMoyOi",
   "1xv8Z-9bwu0n26x9tnB_ur-xu19450oU6",
   "1_4tO-uQoT4vcix2InIDzUujeMDAKt_hI",

@@ -24,7 +24,9 @@ body {
 }
 
 img {
-    object-fit: contain;
+    width: 200px; /* Set the desired width for the square image */
+    height: 200px; /* Set the desired height for the square image */
+    object-fit: cover;
 }
 
 #profilePicture, #profilePicture img {

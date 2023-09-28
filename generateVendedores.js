@@ -27,7 +27,35 @@ const names = [
   "Clara Cardoso",
   "Irys Schlickmann",
 ];
-const drive_images_ids = ["1xv8Z-9bwu0n26x9tnB_ur-xu19450oU6"];
+const drive_images_ids = [
+  "1Y9ah_aEXNs0cDVMYeBuIh4027m6F9QMC",
+  "1YFj2ZkatiR2qycQAcsk0n90lFhDLiCmI",
+  "1T42kxo2zTtBv5UxTcDdA-GwrPgIDRnZ1",
+  "1NKJZrWqDM_Gx-XIIuHi1ML1w25gMoyOi",
+  "1xv8Z-9bwu0n26x9tnB_ur-xu19450oU6",
+  "1_4tO-uQoT4vcix2InIDzUujeMDAKt_hI",
+  "1Xf2x6eYOqyUhwLiAU-B3rFanlAWIAT1E",
+  "1pNwR6X9bsiU64aa5eodKoIZiCruv9E1u",
+  "1GiDReIFGyVuK53kBgxTfrRF94Cy65rIN",
+  "1Pjn0GcBxKFC7awdmbyR4B7tx9Gl0_RtU",
+  "1keUKpZNC2DQt7UiBEabjDUKu6Nx045BE",
+  "1pVU0X-326qgERzZbJtXBGajRfJ6HuHri",
+  "1oM76I9mcfRbZ-pp_wynQhqTf6IOpZQqo",
+  "1SB1os1ZfUqkKHEXeImqb_PDvJUqGtu10",
+  "1PCENvg1HuJN5b_JhBl5Pq6Ur9lSHp513",
+  "1YccfATuKHxkibOj-L2nzfsUIS7ZC_z9v",
+  "1t5k_kqduhu2lgjAdfuhDpsbnINMJojHx",
+  "1xX1j0NnU-TBfaoMuAc6hyXQKCFTX9Bs3",
+  "1GNrWq5YrRuzaaEWRUJLi3MlrZnsUxaLD",
+  "1H2qid-F51gTA98NpX-jwizs_OOqhBk6P",
+  "102WZ_Wu4QMnyaI_xX6B8ePGm8aiBwckV",
+  "1MThFScJC72X7PPWkvN5dGA04HK5FRKh6",
+  "1TE70kxS_x4jK1gEeUt77ldDX2GVIbTx9",
+  "1Ki1U2Oo9VKZ8kGdtOwAcGmyQJehh6AgJ",
+  "1dwt4hlMc4S-_ZJMVBNNbk5pNi8UeugtK",
+  "1zX_xXpD7KO8cySTITObbtjB651g2nQEx",
+  "1ccbT2CT_HCQTPDPfGCHOdP0SVLrmlRQb",
+];
 const instagram_users = [
   "artur_rabelo",
   "otavioosid",
@@ -115,7 +143,7 @@ const generateVendedor = (name, drive_images_id, instagram_user, number) => {
 for (let i = 0; i < names.length; i++) {
   const vendedor = generateVendedor(
     names[i],
-    drive_images_ids[0],
+    drive_images_ids[i],
     instagram_users[i],
     numbers[i]
   );

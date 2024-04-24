@@ -14,7 +14,8 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     /* background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%); */
-    background-image: url("feed fundo.png");
+    /*background-image: url("feed fundo.png");*/
+    background-color: #ffd600;
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -42,6 +43,29 @@ img {
 #userName {
     color: var(--accentColor);
     font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#genInfo {
+    color: var(--accentColor);
+    font-size: 1rem;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#subTitle {
+    color: var(--accentColor);
+    font-size: 2rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
